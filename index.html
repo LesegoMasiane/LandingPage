@@ -6,38 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To Landing Page</title>
 <style>
-    .flex-container {
+    .header-container {
         display: flex;
+        color: #f9faf8;
+  background-color: #1F2937;
+  height:40px;
       }
       
       /* this selector selects all divs inside of .flex-container */
       .flex-container div {
         background: peachpuff;
         border: 1px solid black;
-        height: 70px;
       
       }
 
-      .flex-container .one {
-  flex: 1;
+      .header-container .one {
+  flex: 6;
   font-size:24px;
-  color: #f9faf8;
+  color: #f9f8fa;
   background-color: #1F2937;
 }
 
 
-.flex-container .two {
+.header-container .two {
   flex: 1;
+ 
   font-size:18px;
-  color: #f9faf8;
-  background-color: #1F2937;
-  display: inline;
+  color: #e5e7eb;
   text-align: right;
+  background-color: #1F2937;
+  margin-top:5px;
 }
 
 a {
 	text-decoration: none;
 	margin-right: 10px;
+    
+}
+
+li{
+  list-style: none;
 }
 </style>
       
@@ -45,11 +53,22 @@ a {
 </head>
 <body>
 
-    <div class="flex-container">
-        <div class="one"><h1>Header Logo</h1></div>
-        <div class="two"><a>Header Link One</a><a>Header Link Two</a><a>Header Link Three</a></div>
-      
-      </div>
+    <header>
+      <ul class="header-container">
+        <li class="one"><a>Header Logo</a></li>
+        <li class="two"><a>Header Link One</a></li>
+        <li class="two"><a>Header Link Two</a></li>
+        <li class="two"><a>Header Link Three</a></li>
+      </ul>
+    </header>
+
+    <div class="container-1">
+<div class="three">
+</div>
+<div class="four">
+</div>
+
+  </div>
     
 </body>
 </html>
