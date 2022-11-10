@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Landing Page</title>
+<style>
+    .flex-container {
+        display: flex;
+      }
+      
+      /* this selector selects all divs inside of .flex-container */
+      .flex-container div {
+        background: peachpuff;
+        border: 1px solid black;
+        height: 100px;
+      
+      }
+
+      .flex-container .one {
+  flex: 1;
+  font-size:24px;
+  color: #f9faf8;
+  background-color: #1F2937;
+}
+
+
+.flex-container .two {
+  flex: 1;
+  font-size:18px;
+  color: #f9faf8;
+  background-color: #1F2937;
+  display: inline;
+  text-align: right;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 5px;
+}
+</style>
+      
+
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="one"><h1>Header Logo</h1></div>
+        <div class="two"><a>Header Link One</a><a>Header Link Two</a><a>Header LInk Three</a></div>
+      
+      </div>
+    
+</body>
+</html>
