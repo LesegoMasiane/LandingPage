@@ -1,10 +1,29 @@
+/*call to action formatting */
+
+.call-to-action{
+
+    display:flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height:250px;
+    
+}
+
+
+.call-to-action-container{
+    background-color: #3882f6;
+    flex-basis:65%;
+    height:50%;
+}
+
+/*call to action formatting --- end */
 
 
 
 body{
     font-family: "Roboto";
 }
-
 
 
 /*Footer css*/
@@ -20,3 +39,5 @@ body{
 
 }
 
+
+/*Footer css - end*/
