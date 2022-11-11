@@ -164,14 +164,14 @@ height:60px;
 margin-right:120px;
 justify-content: center;
 align-items:center;
-padding-left: 350px;
-padding-right: 350px;
+padding-left: 80px;
+padding-right: 30px;
 
   }
 
 
   .header-container .one {
-    flex: 4;
+    flex: 3;
     font-size:24px;
     color: #f9f8fa;
     background-color: #1F2937;
@@ -193,10 +193,85 @@ padding-right: 350px;
 
 /*header css --- end*/
 
+/*awesome container css*/
+
+.container-1 {
+    display: flex;
+    color: #f9faf8;
+background-color: #1F2937;
+height:450px;
+margin-top:50px;
+justify-content: center;
+align-items: center;
+margin-left:30px;
+flex-basis: 40%;
+margin-top: 100px;
+
+  }
+
+  .container-1 .three{
+    flex:1;
+    padding-bottom:40px;
+    padding-left:60px;
+    
+  
+    }
+    
+
+
+.container-1 .four{
+    flex:1;
+    padding-right:150px;
+    padding-top:50px;
+    align-self:flex-start;
+   
+  }
+  
+  #image1{
+    display:flex;
+    background-color: gray;
+    border-color: gray;
+    border-style: solid;
+    width:550px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  
+  }
+
+
+#main-text{
+
+    font-size: 48px;
+    color:#f9faf8;
+  }
+  
+  .main-sub-text{
+  
+  font-size: 18px;
+  color:#f9faf8;
+  
+  
+  }
+
+  .button-top{
+    flex:2; 
+    display:flex;
+    justify-content: left;
+    align-items: center;
+   
+   }
+  
+
+
+/*awesome container --- end*/
+
 
 
 body{
     font-family: "Roboto";
+    background-color: #1F2937
 }
 
 
