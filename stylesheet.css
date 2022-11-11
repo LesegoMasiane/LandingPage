@@ -12,10 +12,43 @@
 
 
 .call-to-action-container{
+    display:flex;
+    
     background-color: #3882f6;
     flex-basis:65%;
-    height:50%;
+    height:60%;
+    justify-content: center;
+    align-items: center;
 }
+
+.button{
+ flex:2; 
+ display:flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.call-main{
+display:flex;
+flex-direction: column;
+    color:white;
+    font-size: 36px;
+    flex:4; 
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+#call-subtext{
+
+    color:white;
+    font-size: 18px;
+    margin: top 0;
+    
+}
+
 
 /*call to action formatting --- end */
 
