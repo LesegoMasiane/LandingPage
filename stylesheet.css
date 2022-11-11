@@ -75,9 +75,24 @@ flex-direction: column;
 
 }
 
-
-
 /*qoute container css --- end */
+
+
+
+/*random action container css*/
+
+.random-info-container{
+    
+    display:flex;
+background-color:white;
+justify-content: center;
+align-items: center;
+font-size:25px;
+
+}
+
+/*random action container css --- end*/
+
 
 
 
