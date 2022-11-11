@@ -82,17 +82,71 @@ flex-direction: column;
 /*random action container css*/
 
 .random-info-container{
-    
+
     display:flex;
 background-color:white;
 justify-content: center;
 align-items: center;
 font-size:25px;
+word-spacing: 10px;
 
 }
 
 /*random action container css --- end*/
 
+
+/*illustration css */
+.illustration-container{
+
+    display:flex;
+    background-color:white;
+    justify-content: center;
+    align-items: top;
+    font-size:25px; 
+    height: 350px;
+}
+
+.illustration-inner{
+display: flex;
+background-color:white;
+    flex-basis:50%;
+    height:60%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    
+    
+}
+
+.main-item{
+  
+    height: 100%;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+flex:1;
+    border-color: #3882f6;
+    border-style: solid;
+    height:60%;
+    align-self: flex-start;
+    border-radius: 14px;
+    flex-basis: 300px;
+margin-right: 20px;
+}
+
+
+
+
+/*illustration css ---end*/
+
+/*header css*/
+
+
+
+/*header css --- end*/
 
 
 
