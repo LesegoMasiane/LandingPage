@@ -1,0 +1,22 @@
+
+
+
+body{
+    font-family: "Roboto";
+}
+
+
+
+/*Footer css*/
+
+.footer{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    font-family: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
+
+}
+
