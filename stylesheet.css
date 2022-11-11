@@ -6,7 +6,7 @@
     background-color: whitesmoke;
     justify-content: center;
     align-items: center;
-    height:250px;
+    height:350px;
     
 }
 
@@ -16,9 +16,10 @@
     
     background-color: #3882f6;
     flex-basis:65%;
-    height:60%;
+    height:55%;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 
 .button{
@@ -53,6 +54,32 @@ flex-direction: column;
 /*call to action formatting --- end */
 
 
+/*qoute container css*/
+
+.qoute-container{
+
+    display:flex;
+    flex-direction: column;
+    background-color:#e5e7eb;
+    justify-content: center;
+    align-items: center;
+    height:450px;
+    font-size: 36px;
+    color:#1f2937;
+    
+}
+
+#author{
+    padding-left:400px;
+    font-size: smaller;
+
+}
+
+
+
+/*qoute container css --- end */
+
+
 
 body{
     font-family: "Roboto";
@@ -69,6 +96,7 @@ body{
     background-color: #1f2937;
     color:#e5e7eb;
     font-family: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
+    height:100px;
 
 }
 
