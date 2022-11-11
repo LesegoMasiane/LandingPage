@@ -144,6 +144,51 @@ margin-right: 20px;
 
 /*header css*/
 
+a {
+	text-decoration: none;
+	margin-right: 2px;
+    color: #f9f8fa;
+    
+}
+
+li{
+  list-style: none;
+}
+
+
+.header-container {
+    display: flex;
+    color: #f9faf8;
+background-color: #1F2937;
+height:60px;
+margin-right:120px;
+justify-content: center;
+align-items:center;
+padding-left: 350px;
+padding-right: 350px;
+
+  }
+
+
+  .header-container .one {
+    flex: 4;
+    font-size:24px;
+    color: #f9f8fa;
+    background-color: #1F2937;
+  }
+  
+  
+  .header-container .two {
+    flex: 1;
+   
+    font-size:18px;
+    color: #e5e7eb;
+    text-align: right;
+    background-color: #1F2937;
+    margin-top:5px;
+  }
+  
+
 
 
 /*header css --- end*/
